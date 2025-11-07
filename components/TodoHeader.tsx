@@ -34,11 +34,11 @@ export function TodoHeader() {
 
 const styles = StyleSheet.create({
   background: {
-    height: 200,
+    minHeight: 200,
     paddingTop: 50,
     paddingHorizontal: 24,
     paddingBottom: 0,
-    width: 375,
+    minWidth: 375,
     marginLeft: 'auto',
     marginRight: 'auto',
   },
